@@ -1,12 +1,15 @@
+/**
+ * this is the head section
+ */
 #include <stdio.h>
 
 /**
- *this is the main
+ * this is the main
  */
 int main(void)
 {
 	/**
-	 * this is the string 
+	 * this is the string
 	 */
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
@@ -14,7 +17,7 @@ int main(void)
 	stderr;
 
 	/**
-	 * after printing retun 
+	 * after printing retun
 	 */
 	return (0);
 }

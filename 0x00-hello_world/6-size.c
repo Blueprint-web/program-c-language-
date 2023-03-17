@@ -15,8 +15,7 @@ int main(void)
 	long int k;
 	long long int l;
 	float m;
-
-	stderr;
+	int stderr;
 
 	printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(i));
 	printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(j));

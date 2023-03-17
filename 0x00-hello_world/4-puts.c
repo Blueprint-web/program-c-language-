@@ -6,7 +6,7 @@ int main(void)
 	/* this is the string */
 	char str[] = "\"Programming is like building a multilingual puzzle";
 	puts(str);
-	fprintf(stderr,"");
+	stderr;
 
 	/* after printing retun */
 	return(0);

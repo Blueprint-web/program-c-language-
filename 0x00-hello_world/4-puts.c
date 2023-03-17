@@ -2,7 +2,6 @@
 
 /**
  * main - this is the main holding my code
- * @str: input the display string
  *
  * discription: this is a print funtion using put
  * header: no heaader
@@ -12,6 +11,9 @@ int main(void)
 {
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
+	/**
+	 * str - funtion that output our code
+	 */
 	puts(str);
 	stderr;
 

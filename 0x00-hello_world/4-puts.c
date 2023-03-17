@@ -6,7 +6,7 @@
  *
  * discription: this is a print funtion using put
  * header: no heaader
- * Return: after initialization return an empty string
+ * Return: return zero value
  */
 int main(void)
 {

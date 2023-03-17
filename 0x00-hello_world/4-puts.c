@@ -1,15 +1,17 @@
-/**
- * this is the head section
- */
 #include <stdio.h>
 
 /**
- * this is the main
+ * main - this is the main holding my code
+ * @str: input the display string
+ *
+ * discription: this function is meant to print out a quotation string using the put function.
+ * header: no heaader
+ * Return: after initialization return an empty string
  */
 int main(void)
 {
 	/**
-	 * this is the string
+	 * @str: this is the string
 	 */
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
@@ -17,7 +19,7 @@ int main(void)
 	stderr;
 
 	/**
-	 * after printing retun
+	 * Return: after printing retun
 	 */
 	return (0);
 }

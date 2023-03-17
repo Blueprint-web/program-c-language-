@@ -5,14 +5,8 @@
  */
 int main(void)
 {
-	/**
-	 * my string initialization
-	 */
-	char mystr[] = "\"programming is like building a multilingual puzzle";
-	/** 
-	 * writting out the string to stand out
-	 */
-	puts(mystr); 
-
+	char str[] = "\"Programming is like building a multilingual puzzle";
+	puts(str);
+	fprintf(stderr, "erro\n");
 	return(0);
 }

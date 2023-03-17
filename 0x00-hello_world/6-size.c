@@ -16,13 +16,13 @@ int main(void)
 	long long int l;
 	float m;
 
+	stderr;
+
 	printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(i));
 	printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(j));
 	printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(k));
 	printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(l));
 	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(m));
-
-	stderr;
 
 	return (0);
 }

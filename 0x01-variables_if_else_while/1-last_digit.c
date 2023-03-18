@@ -20,10 +20,10 @@ int main(void)
 	/* your code goes there */
 	o = n % 10;
 	if (o > 5)
-		printf("last degit of %d is %d and is greater than 5\n", n, o);
+		printf("Last degit of %d is %d and is greater than 5\n", n, o);
 	else if(o == 0)
-		printf("the last degit of %d is %d and is 0\n", n, o);
+		printf("Last degit of %d is %d and is 0\n", n, o);
 	else if (o < 6)
-		printf("the last degit of %d is %d and is less than 6 not zero\n", n, o);
+		printf("Last degit of %d is %d and is less than 6 not zero\n", n, o);
 	return (0);
 }

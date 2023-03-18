@@ -1,10 +1,16 @@
 #include <stdio.h>
 
+/**
+ * main - this is the main
+ *
+ * Return: return no value
+ */
 int main(void)
 {
-	char a[]  = "d";
-
-	putchar(a);
+	char gh = 'h' ;
+	
+	putchar(gh);
+	putchar('\n');
 
 	return (0);
 }

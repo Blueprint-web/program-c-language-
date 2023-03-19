@@ -16,8 +16,10 @@ int main(void)
 	{
 		putchar(i);
 		if (i < '9')
-		putchar(j);
-		putchar(l);
+		{
+			putchar(j);
+			putchar(l);
+		}
 	}
 	putchar('\n');
 	return (0);

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main - the main function
@@ -8,15 +8,16 @@
  */
 int main(void)
 {
-	int i;
 	int j;
+	int h;
 
+	void print_alphabet_x10();
 	for (j = 1; j <= 10; j++)
 	{
-		for (i = 97; i <= 122; i++)
-		{
-			putchar(i);
-		}
+		for (h = 97; h<= 122; h++)
+			{
+				putchar(h);
+			}
 		putchar('\n');
 	}
 	return (0);

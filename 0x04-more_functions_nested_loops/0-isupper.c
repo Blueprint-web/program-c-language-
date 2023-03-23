@@ -5,7 +5,8 @@
  * _isupper - check the code for upper case.
  *
  * Return: return the value of _isupper.
-*/
+ * @c: here we decleare the mode of our function
+ */
 
 int _isupper(int c)
 {

@@ -3,7 +3,7 @@
 /**
  * print_square - print a square of a #
  *
- * Return: return aways 
+ * Return: return aways
  * @size: initiate the size of #
  */
 void print_square(int size)

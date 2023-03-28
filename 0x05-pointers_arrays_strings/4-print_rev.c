@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_rev - print reverser funtion
  * @s: print the string
@@ -8,15 +8,15 @@
 
 void print_rev(char *s)
 {
-	int a = 0;
+	int i;
 
-	while (s[a] != '\0')
+	while (s[i] != '\0')
 	{
-		a++;
+		i++;
 	}
-	for (a -= 1; a >= 0; a--)
+	for (i -= 1; i >= 0; i--)
 	{
-		_putchar(s[a]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }

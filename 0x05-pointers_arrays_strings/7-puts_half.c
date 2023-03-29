@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * puts_half - print half function
@@ -8,15 +7,25 @@
  */
 void puts_half(char *str)
 {
-	int a, b, i, j;
+	int a = 0;
+	int b;
 
-	a = strlen(str);
-
-	b = (a -1) / 2;
-
-	for (i = b, j = 1; i <= a; i++, j++)
+	while (str[a] != '\0')
 	{
-		_putchar(str[i]);
+		a++;
+	}
+	if (a % 2 == 1)
+	{
+		b = (a - 1) / 2;
+		b += 1;
+	}
+	else 
+	{
+		b = a / 2;
+	}
+	for (; b < a; b++)
+	{
+		_putchar(str[b]);
 	}
 	_putchar('\n');
 }

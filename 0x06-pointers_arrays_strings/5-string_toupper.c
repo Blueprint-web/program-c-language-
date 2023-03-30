@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * string_topper - turns any giving string to caps
+ * string_toupper - turns any giving string to caps
  * @str: the string to be changed
- *
- * Return: str 
+ * Return: str
  */
 char *string_toupper(char *str)
 {
